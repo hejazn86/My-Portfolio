@@ -1,21 +1,35 @@
 :root {
   --primary-color: #dde0ab;
-  --secondary-color: #97cba9;
+  --secondary-color: #303e27;
+  --button-color: #044a42;
   --heading-font: "Playfair Display", serif;
-  --paragraph-font: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  --paragraph-font: "Ubuntu", sans-serif;
 }
 body {
   font-family: var(--paragraph-font);
-  max-width: 800px;
-  background-color: var(--primary-color);
   text-align: center;
+  padding: 140px 40px;
+  background-color: var(--primary-color);
 }
 h1 {
   font-family: var(--heading-font);
-  font-size: 75px;
+  font-size: 80px;
   line-height: 1.5;
   color: var(--secondary-color);
 }
-.d-flex p {
+h2 {
+  font-weight: 500;
+  font-size: 45px;
+}
+p {
+  font-size: 30px;
+  opacity: 80%;
+}
+.btn-primary {
+  background-color: var(--button-color);
+  border: 1px solid #b4bb72;
+  color: olive;
+  text-decoration: none;
   font-size: 20px;
+  font-weight: bold;
 }
