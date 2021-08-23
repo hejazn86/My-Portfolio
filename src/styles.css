@@ -1,16 +1,17 @@
 :root {
-  --primary-color: #dde0ab;
+  --primary-color: #d9dd92;
   --secondary-color: #303e27;
-  --button-color: #044a42;
+  --info-color: #acaf6d;
+  --button-color: #065f55;
   --heading-font: "Playfair Display", serif;
   --paragraph-font: "Ubuntu", sans-serif;
 }
 body {
   font-family: var(--paragraph-font);
   text-align: center;
-  padding: 140px 40px;
   background-color: var(--primary-color);
 }
+
 h1 {
   font-family: var(--heading-font);
   font-size: 80px;
@@ -21,15 +22,58 @@ h2 {
   font-weight: 500;
   font-size: 45px;
 }
-p {
+h4 {
+  font-size: 30px;
+  font-weight: bold;
+  opacity: 90%;
+}
+.hero {
+  background-color: var(--info-color);
+  padding: 80px 0 40px;
+  border-radius: 5px;
+}
+.description {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 80%;
+}
+.job-title {
   font-size: 30px;
   opacity: 80%;
 }
-.btn-primary {
+.btn-contact {
   background-color: var(--button-color);
-  border: 1px solid #b4bb72;
+  border: 1px solid var(--button-color);
   color: olive;
+  border-radius: 10px;
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
+  box-shadow: 5px 5px 5px rgba(90, 90, 50, 0.3);
+}
+.btn-contact:hover {
+  background-color: olive;
+  border: 1px solid olive;
+  color: var(--button-color);
+}
+.btn-link {
+  background-color: olive;
+  border: 1px solid olive;
+  color: var(--button-color);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(90, 90, 50, 0.3);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 5px;
+}
+.btn-link:hover {
+  background-color: var(--button-color);
+  border: 1px solid var(--button-color);
+  color: olive;
+}
+.img-fluid {
+  border-radius: 25px;
+  width: 400px;
+  box-shadow: 5px 5px 5px rgba(238, 238, 137, 0.4);
 }
