@@ -1,7 +1,7 @@
 :root {
   --primary-color: #d9dd92;
   --secondary-color: #303e27;
-  --info-color: #acaf6d;
+  --info-color: #aeb17a;
   --button-color: #065f55;
   --heading-font: "Playfair Display", serif;
   --paragraph-font: "Ubuntu", sans-serif;
@@ -75,5 +75,6 @@ h4 {
 .img-fluid {
   border-radius: 25px;
   width: 400px;
+  height: 300px;
   box-shadow: 5px 5px 5px rgba(238, 238, 137, 0.4);
 }
