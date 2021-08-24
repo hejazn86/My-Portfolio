@@ -41,6 +41,7 @@ h4 {
 .job-title {
   font-size: 30px;
   opacity: 80%;
+  font-weight: bold;
 }
 .btn-contact {
   background-color: var(--button-color);
@@ -77,4 +78,16 @@ h4 {
   width: 400px;
   height: 300px;
   box-shadow: 5px 5px 5px rgba(238, 238, 137, 0.4);
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .job-title {
+    font-size: 20px;
+  }
 }
