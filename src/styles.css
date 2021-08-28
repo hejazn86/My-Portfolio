@@ -14,7 +14,7 @@ body {
 
 h1 {
   font-family: var(--heading-font);
-  font-size: 80px;
+  font-size: 75px;
   line-height: 1.5;
   color: var(--secondary-color);
 }
@@ -22,12 +22,13 @@ h2 {
   font-weight: 500;
   font-size: 45px;
 }
-h4 {
+h3 {
   font-size: 30px;
   font-weight: bold;
   opacity: 90%;
 }
-.hero {
+
+.content {
   background-color: var(--info-color);
   padding: 80px 0 40px;
   border-radius: 5px;
@@ -39,7 +40,7 @@ h4 {
   opacity: 80%;
 }
 .job-title {
-  font-size: 30px;
+  font-size: 25px;
   opacity: 80%;
   font-weight: bold;
 }
@@ -78,6 +79,12 @@ h4 {
   width: 400px;
   height: 300px;
   box-shadow: 5px 5px 5px rgba(238, 238, 137, 0.4);
+}
+.about-section-content {
+  text-align: left;
+}
+.content-section {
+  padding: 100px 80px;
 }
 
 @media (max-width: 375px) {
