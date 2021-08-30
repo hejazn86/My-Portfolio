@@ -28,7 +28,9 @@ h3 {
   font-weight: bold;
   opacity: 90%;
 }
-
+nav {
+  margin: 0 auto;
+}
 ul {
   list-style: none;
   display: flex;
@@ -37,9 +39,10 @@ ul {
 li {
   margin-left: 25px;
 }
-nav {
-  margin: 0 auto;
+footer {
+  margin-top: 160px;
 }
+
 .logo {
   width: 150px;
 }
@@ -105,6 +108,25 @@ nav {
 .contact-section {
   text-align: left;
   margin: 160px 80px;
+}
+.contact-box {
+  background-color: var(--info-color);
+  text-align: center;
+  margin-top: 200px;
+  padding: 30px 100px;
+}
+.email-link,
+i {
+  color: var(--secondary-color);
+  font-size: 25px;
+}
+
+.email-link:hover,
+i:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 5px 5px;
+  border-radius: 50px;
 }
 
 @media (max-width: 900px) {
