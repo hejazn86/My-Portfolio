@@ -119,6 +119,9 @@ div nav {
   border: 1px solid var(--button-color);
   color: var(--btn-text-color);
 }
+.detail {
+  text-align: left;
+}
 .img-fluid {
   border-radius: 25px;
   width: 400px;
@@ -162,6 +165,9 @@ i:hover {
 }
 .source-code {
   font-weight: 600;
+}
+.project {
+  text-align: center;
 }
 
 @media (max-width: 900px) {
