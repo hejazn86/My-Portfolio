@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #d9dd92;
+  /* --primary-color: #d9dd92; */
   --secondary-color: #303e27;
   --info-color: #aeb17a;
   --button-color: #065f55;
@@ -11,6 +11,26 @@ body {
   font-family: var(--paragraph-font);
   text-align: center;
   background-color: var(--primary-color);
+}
+nav {
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+li {
+  margin-left: 25px;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(70, 68, 68);
+  font-weight: 600;
+}
+div nav {
+  margin-top: 20px;
 }
 
 h1 {
@@ -29,27 +49,9 @@ h3 {
   font-weight: bold;
   opacity: 90%;
 }
-nav {
-  margin: 0 auto;
-}
-ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-}
-li {
-  margin-left: 25px;
-}
+
 footer {
   margin-top: 160px;
-}
-li a {
-  text-decoration: none;
-  color: rgb(70, 68, 68);
-  font-weight: 600;
-}
-div nav {
-  margin-top: 20px;
 }
 
 .navbar-brand strong em {
@@ -72,11 +74,17 @@ div nav {
     1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 .content {
-  background-color: var(--info-color);
-  /* background-size: cover;
-  background-attachment: unset; */
+  /* background-color: var(--info-color); */
+  background: url("/images/laptop.jpg");
+  background-size: cover;
   padding: 80px 0 40px;
   border-radius: 5px;
+}
+.nav-link {
+  color: #413f3f;
+}
+.nav-link.active {
+  color: black;
 }
 .description {
   text-align: left;
@@ -123,10 +131,10 @@ div nav {
   text-align: left;
 }
 .img-fluid {
-  border-radius: 25px;
+  border-radius: 5px;
   width: 400px;
   height: 400px;
-  box-shadow: 3px 3px 3px rgba(238, 238, 137, 0.2);
+  box-shadow: 5px 10px 10px rgba(199, 199, 196, 0.4);
 }
 .about-section-content {
   text-align: left;
