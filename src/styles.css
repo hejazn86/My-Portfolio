@@ -1,9 +1,9 @@
 :root {
   /* --primary-color: #d9dd92; */
-  --secondary-color: #303e27;
-  --info-color: #aeb17a;
-  --button-color: #065f55;
-  --btn-text-color: olive;
+  --secondary-color: #2a4449;
+  --info-color: #588d9c;
+  --button-color: #ffffff;
+  --btn-text-color: #73b1c1;
   --heading-font: "Playfair Display", serif;
   --paragraph-font: "Ubuntu", sans-serif;
 }
@@ -29,9 +29,9 @@ li a {
   color: rgb(70, 68, 68);
   font-weight: 600;
 }
-div nav {
+/* div nav {
   margin-top: 20px;
-}
+} */
 
 h1 {
   font-family: var(--heading-font);
@@ -48,6 +48,9 @@ h3 {
   font-size: 30px;
   font-weight: bold;
   opacity: 90%;
+}
+p a {
+  text-decoration: none;
 }
 
 footer {
@@ -74,10 +77,12 @@ footer {
     1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 .content {
-  /* background-color: var(--info-color); */
-  background: url("/images/laptop.jpg");
+  background-color: var(--info-color);
+  /* background: url("/images/lap.jpg");
   background-size: cover;
-  padding: 80px 0 40px;
+  background-repeat: no-repeat;
+  background-position: center; */
+  padding-bottom: 40px;
   border-radius: 5px;
 }
 .nav-link {
@@ -86,6 +91,7 @@ footer {
 .nav-link.active {
   color: black;
 }
+
 .description {
   text-align: left;
   font-size: 18px;
@@ -150,7 +156,7 @@ footer {
 .contact-box {
   background-color: var(--info-color);
   text-align: center;
-  margin-top: 200px;
+  margin-top: 50px;
   padding: 30px 100px;
 }
 .email-link,
